@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, useEffect } from 'react'
+import { useState, ChangeEvent } from 'react'
 import {
   Box,
   Container,
