@@ -8,11 +8,31 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #f7fafc;
+  background-color: #ffffff;
 }
 
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.token-part {
+  font-family: 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace;
+}
+
+.token-header {
+  color: #fb015b;
+}
+
+.token-payload {
+  color: #d63aff;
+}
+
+.token-signature {
+  color: #00b9f1;
+}
+
+textarea {
+  font-family: 'Monaco', 'Menlo', 'Consolas', 'Courier New', monospace !important;
 } 
