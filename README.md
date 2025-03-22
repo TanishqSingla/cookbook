@@ -2,6 +2,10 @@
 
 A collection of useful developer tools, starting with a JWT encoder and decoder.
 
+## Live Demo
+
+Visit the live application at: https://[your-github-username].github.io/dev-cookbook/
+
 ## Features
 
 - Create and parse JWT tokens
@@ -41,6 +45,23 @@ yarn dev
 
 4. Open your browser and navigate to `http://localhost:5173`
 
+## Deployment
+
+This project is configured for deployment to GitHub Pages. To deploy:
+
+1. Create a new GitHub repository
+2. Push your code to the repository
+3. Enable GitHub Pages in your repository settings
+4. The site will be automatically deployed when you push to the main branch
+
+### Manual Deployment
+
+To manually deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
 ## Usage
 
 ### Encoding a JWT
@@ -64,8 +85,8 @@ yarn dev
 - TypeScript
 - Vite
 - Chakra UI
-- jwt-decode
-- jsonwebtoken
+- jose (JWT library)
+- GitHub Pages
 
 ## Contributing
 
